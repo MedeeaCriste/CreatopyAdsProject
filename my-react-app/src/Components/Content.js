@@ -6,16 +6,16 @@ export default function Content() {
         <h1 className="lg:text-6xl lg:font-semibold text-2xl mt-4">
         Welcome to my app!
         </h1>
-        <h2 className="text-xl lg:text-2xl lg:font-semibold text-[#1D4ED8] lg:mt-14 mt-4">
+        <h2 className="text-xl lg:text-2xl lg:font-semibold text-[#3730a3] lg:mt-14 mt-4">
         Let's style your own advertisement together!
         </h2>
-        <h3 className=" text-lg lg:text-xl text-[#10B981] lg:mt-4 mt-2">
+        <h3 className=" text-lg lg:text-xl text-[#3730a3] lg:mt-4 mt-2">
         Select a template and generate a banner:
         </h3>
-        <div className="flex lg:items-center lg:gap-6 gap-4 text-center mt-2 lg:mt-4">
-            <a href="" className="bg-[#FACC15] border-[1px] w-[100px] border-black p-1 lg:text-lg rounded-md">Instagram</a>
-            <a href="" className="bg-[#FACC15] border-[1px] w-[100px] border-black p-1 lg:text-lg rounded-md">Twitter</a>
-            <a href="" className="bg-[#FACC15] border-[1px] w-[100px]  border-black p-1 lg:text-lg rounded-md">Story</a>
+        <div className="flex lg:items-center lg:gap-6 gap-4 text-white text-center mt-2 lg:mt-4">
+            <a href="" className="bg-[#0284c7]  w-[100px] p-1 lg:text-lg rounded-md shadow-black shadow-sm">Instagram</a>
+            <a href="" className="bg-[#0284c7]  w-[100px] p-1 lg:text-lg rounded-md shadow-black shadow-sm">Twitter</a>
+            <a href="" className="bg-[#0284c7]  w-[100px] p-1 lg:text-lg rounded-md shadow-black shadow-sm">Story</a>
         </div>
      </div>
 
