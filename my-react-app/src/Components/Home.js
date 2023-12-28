@@ -17,8 +17,8 @@ export default function Home() {
           </h3>
           <div className="flex lg:items-center lg:gap-6 gap-4 text-white text-center mt-2 lg:mt-4">
             <Link to="/instagram" className="bg-[#0284c7]  w-[100px] p-1 lg:text-lg rounded-md shadow-black shadow-sm">Instagram</Link>
-            <Link href="" className="bg-[#0284c7]  w-[100px] p-1 lg:text-lg rounded-md shadow-black shadow-sm">Twitter</Link>
-            <Link href="" className="bg-[#0284c7]  w-[100px] p-1 lg:text-lg rounded-md shadow-black shadow-sm">Story</Link>
+            <Link to="/twitter" className="bg-[#0284c7]  w-[100px] p-1 lg:text-lg rounded-md shadow-black shadow-sm">Twitter</Link>
+            <Link to="/story" className="bg-[#0284c7]  w-[100px] p-1 lg:text-lg rounded-md shadow-black shadow-sm">Story</Link>
           </div>
         </div>
 
