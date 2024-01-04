@@ -1,9 +1,9 @@
 import React from "react";
 export default function Card({title, description, w, h, img}) {
   return (
-    <div className={`card w-[${w}px] h-[${h}px] bg-base-100 shadow-xl`}>
+    <div className={`card w-[${w}px] h-[${h}px] bg-base-100 relative shadow-xl`}>
       {img}
-      <div className="card-body p-4 ">
+      <div className="card-body p-4 absolute bottom-0 z-10 w-full">
         <h2 className="card-title text-3xl font-bold">
           {title}
         </h2>
