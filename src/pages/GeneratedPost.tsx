@@ -101,7 +101,7 @@ export default function GeneratedPost() {
 
   return (
     <div className="flex flex-col justify-center items-center pt-20">
-      <Card title={titleParam} description={ textLoading ? "Text is loading..." : generatedText} w={width} h={height} img={imageLoading? <p className="px-4 pt-4 text-gray-600">Loading image...</p> : <div className='w-full h-3/5'><img className='object-cover h-full w-full' src={generatedImage} alt="Generated image"/></div>}/>
+      <Card title={titleParam} description={ textLoading ? "Text is loading..." : generatedText} w={width} h={height} img={imageLoading? <img className='w-full h-full object-contain' width={width} height={height} src='/assets/loading_image.gif'/> : <img className='object-cover h-full w-full' src={generatedImage} alt="Generated"/>}/>
     </div>
   )
 }
